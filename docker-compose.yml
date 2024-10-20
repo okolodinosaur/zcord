@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  websocket-server:
+    build: .
+    ports:
+      - "8080:8080" # Указываем маппинг порта
+    environment:
+      - NODE_ENV=production

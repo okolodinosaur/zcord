@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Целевая версия JavaScript
+    "module": "commonjs", // Используем модульную систему CommonJS
+    "outDir": "./dist", // Директория для выходных файлов
+    "rootDir": "./src", // Корневая папка с исходными файлами
+    "strict": true, // Включить все строгие проверки типов
+    "esModuleInterop": true, // Позволяет импортировать поддерживающие ES модули
+    "skipLibCheck": true // Пропускать проверку типов в определениях
+  },
+  "include": [
+    "src/**/*.ts" // Включаем все .ts файлы внутри папки src
+  ],
+  "exclude": [
+    "node_modules" // Исключаем папку node_modules
+  ]
+}
